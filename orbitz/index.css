@@ -1,0 +1,538 @@
+body{
+    background-color: #F5F5F5;
+    overflow-x:hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#signinBox{
+    display: none;
+    width: 25%;
+    position:absolute;
+    margin-top: 4.5%;
+    left:70%;
+    background-color: white;
+    z-index: 11;
+    border-radius: 1%;
+    padding: 2.5% 1.5% 2% 2%;
+}
+#signinBox > div:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+}
+#signinBox > div:nth-child(2){
+    width: 87%;
+    margin: 6% 0% 0% 2.5%;
+    color: rgb(247, 245, 245);
+    background-color:  deeppink;
+    text-align: center;
+    padding: 2%;
+}
+#signinBox > div:nth-child(3){
+    margin: 4% 0% 0% 2.5%;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(16, 139, 92);
+    text-align: center;
+    padding: 2%;
+}
+#signinBox > div:nth-child(4){
+    margin: 4% 0% 0% 1%;
+}
+#signinBox > div:nth-child(5){
+    margin: 4% 0% 4% 1%;
+}
+#signinBox > div:nth-child(7){
+    margin: 4% 0% 0% 1%;
+}
+#moreTravel{
+    display: none;
+    width: 22%;
+    position:absolute;
+    margin-top: 4.8%;
+    left:25%;
+    background-color: white;
+    z-index: 12;
+    border-radius: 1%;
+    padding: 2.5% 1.5% 2% 3%;
+    font-size: 17px;
+}
+#moreTravel > div:hover{
+    color:#007e8f;
+    cursor: pointer;
+}
+#moreTravel > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap:5%;
+    padding-bottom: 1%;
+}
+
+#moreTravel > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap:5%;
+    padding-bottom: 1%;
+}
+#moreTravel > div:nth-child(3){
+    display: flex;
+    align-items: center;
+    gap:5%;
+    padding-bottom: 1%;
+}
+#moreTravel > div:nth-child(4){
+    display: flex;
+    align-items: center;
+    gap:5%;
+    padding-bottom: 1%;
+}
+#moreTravel > div:nth-child(5){
+    display: flex;
+    align-items: center;
+    gap:5%;
+    padding-bottom: 1%;
+}
+#moreTravel > div:nth-child(6){
+    display: flex;
+    align-items: center;
+    gap:5%;
+    padding-bottom: 1%;
+}
+#moreTravel > div:nth-child(7){
+    margin-top: 4%;
+}
+#moreTravel > div:nth-child(7),div:nth-child(8),div:nth-child(9){
+    margin-bottom: 3%;
+}
+#navBar{
+    width: 105%;
+    background-color: #00253c;
+    color: white;
+    display: flex;
+    gap:21%;
+    align-items: center;
+   margin-left: -0.5%;
+}
+#navBarLeft > div:hover{
+    color:#007e8f;
+    cursor: pointer;
+}
+#navBarRight > div:hover{
+    color:#007e8f;
+    cursor: pointer;
+}
+#navBarLeft{
+    margin-left: 6%;
+    width:40%;
+    display: flex;
+    gap:20%;
+    padding: 1%;
+    cursor: pointer;
+    align-items: center;
+}
+#navBarLeft > div:nth-child(2){
+    width: 30%;
+    display: flex;
+    gap:10%;
+    align-items: center;
+}
+#navBarRight{
+    width:50%;
+    display: flex;
+    padding: 1%;
+    gap:7%;
+    align-items: center;
+    cursor: pointer;
+}
+#content{
+    margin-left: -0.5%;
+    width: 110%;
+    height: 490px;
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+#white{
+    width:80%;
+    background-color: white;
+    padding: 2%;
+    z-index: 2;
+    position: absolute;
+    top:17%;
+    left: 10%;
+}
+#stays{
+    display: flex;
+    align-items: center;
+    gap:5%;
+    margin: 0.5% 0% 0% 30%;
+}
+#stays > div {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  #stays > div:hover {
+    color: #007e8f;
+    text-decoration: underline;
+  }
+  #stays-cont{
+    height: 230px;
+    display: block;
+  }
+  #dth{
+      display: flex;
+      align-items: center;
+      gap: 2%;
+  }
+  #dth > div:nth-child(1){
+      width: 22%;
+      display: flex;
+      align-items: center;
+      border: 1px solid black;
+      padding: 1%;
+  } 
+  #dth > div:nth-child(2){
+    width: 20%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1%;
+} 
+#dth > div:nth-child(3){
+    width: 21%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1%;
+} 
+#dth > div:nth-child(4){
+    width: 22%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1%;
+    gap:1%;
+} 
+#check{
+    display: flex;
+    align-items: center;
+    margin: 3% 0% 0% 0%;
+}
+#check > div:nth-child(1){
+    width: 12%;
+    display: flex;
+    align-items: center;
+    color: #9E9E9E;
+    cursor: pointer;
+    gap: 3%;
+}
+#check > div:nth-child(2){
+    width: 12%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 3%;
+    color: #9E9E9E;
+}
+#stays-cont > button{
+    margin: 3% 0% 0% 38%;
+    padding: 1%;
+    width: 20%;
+    color: #fff;
+    background-color: #c83259;
+    cursor: pointer;
+}
+  
+#logos{
+    display:flex;
+    align-items: center;
+    gap:3%;
+    width: 89%;
+    margin: 4% 0% 0% 8%;
+}
+.insideLogos{
+    width:31%;
+    display: flex;
+    align-items: center;
+    gap: 1%; 
+}
+.insideLogos > img{
+    width: 100%;
+}
+#headImages{
+    margin: 3% 0% 0% 8%;
+    color: #1f1f1f;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+#fourImages{
+    display: flex;
+    align-items: center;
+    width: 89%;
+    margin: 0% 0% 0% 8%;
+    gap: 1%;
+}
+#fourImages > div{
+    width:24%;
+}
+#fourImages > div > img{
+    width: 100%;
+}
+#planning{
+    width: 88%;
+    display: flex;
+    align-items: center;
+    gap:1%;
+    background-color: white;
+    margin: 3% 0% 0% 8%;
+}
+#planning > div:nth-child(1){
+    border: 1px solid gray;
+    width:100%;
+}
+#planning > div:nth-child(1) > img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1%;
+}
+#planning > div:nth-child(1) >div:nth-child(2) {
+    margin-left: 40%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#planning > div:nth-child(1) >div:nth-child(3){
+    margin-left: 29%;
+    margin-bottom: 2%;
+    margin-top: 0.5%;
+    width: 100%;
+    color: gray;
+    font-weight: bold;
+}
+#trackHead{
+    margin: 4% 0% 1% 8%;
+    font-size: 30px;
+    font-weight: bold;
+}
+#track h3{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#track {
+   
+    margin: 4% 0% 2% 8%;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2%;
+}
+#track >div{
+    justify-content: center;
+    background-color: white;
+    padding: 2%;
+}
+.track2nd{
+    color: gray;
+}
+#travelling-tips{
+    margin: 3% 0% 2% 8%;
+    display: grid;
+    grid-template-columns:45% 45%;
+    grid-gap: 5%;
+}
+#travelling-tips h1{
+    margin: 0px;
+    margin-top: 80px;
+    margin-left: 50px;
+    color: white;
+}
+#travelling-tips h3{
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+#travelling-tips button{
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(57, 57, 231);
+    padding: 10px;
+    font-weight: bold;
+    font-size:15px;
+}
+#travelling-tips>div:nth-child(1){
+  height:300px;
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg");
+    background-position: center center;
+}
+#travelling-tips>div:nth-child(2){
+    height:300px;
+      background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg");
+      background-position: center center;
+  }
+.material-icons{
+    text-align: center;
+}
+.editter{
+    display:grid;
+    grid-template-columns:80% 10%;
+}
+#more-destinations{
+    margin: 4% 0% 2% 8%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2.5%;
+}
+#more-destinations >div{
+    background-color: white;
+    display:grid;
+    grid-template-columns:80% 20%;
+    margin-bottom:20px;
+    padding: 1%;
+}
+.expander{
+    margin-top:20px;
+}
+#footer{
+    margin: 4% 0% 2% 8%;
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+}
+#footer img{
+    width: 60%;
+}
+.darkerFooter{
+    font-weight: bold;
+}
+.blueFooter{
+    margin-bottom:20px;
+    color: #007e8f;
+}
+a:hover{
+
+    color: #007e8f;
+}
+#code{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #9E9E9E;;
+    margin: 4% 0% 0% 8%;
+    gap: 1%;
+    background-color: white;
+}
+#code > div:nth-child(1){
+    width: 34%;
+}
+#code > div:nth-child(1) > img{
+    width: 100%;
+    height: 320px;
+}
+#code > div:nth-child(3) > img{
+    width: 100%;
+    height: 100px;
+}
+#code > div:nth-child(3) > div:nth-child(2){
+   font-weight: bold;
+   text-align: center;
+}
+#code > div:nth-child(2){
+    width: 45%;
+}
+#code > div:nth-child(3){
+    width: 18%;
+    margin-bottom: 15%;
+}
+#code > div:nth-child(2) > div:nth-child(1)
+{
+    font-size: 28px;
+    font-weight: bold;
+}
+#code > div:nth-child(2) > div:nth-child(2)
+{   color: #9E9E9E;
+    margin-top: 1%;
+}
+#code > div:nth-child(2) > div:nth-child(3)
+{   color: #9E9E9E;
+    margin-top: 1%;
+}
+#code > div:nth-child(2) > div:nth-child(4)
+{   color: #9E9E9E;
+    margin-top: 1%;
+}
+#code > div:nth-child(2) > div:nth-child(5)
+{   font-size: 22px;
+    margin-top: 4%;
+    font-weight: bold;
+}
+#code > div:nth-child(2) > div:nth-child(6)
+{   display: flex;
+    align-items: center;
+    margin-top: 2%;
+    gap: 2%;
+}
+#code > div:nth-child(2) > div:nth-child(6) > div:nth-child(1)
+{   border: 1px solid #9E9E9E;
+    color: #9E9E9E;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+   
+}
+#code > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1){
+    width: 100%;
+    padding: 1%;
+}
+
+#code > div:nth-child(2) > div:nth-child(6) > div:nth-child(2)
+{   border: 1px solid #9E9E9E;
+    color: #9E9E9E;
+    width: 27%;
+    padding: 2%;
+}
+#code > div:nth-child(2) > div:nth-child(6) > div:nth-child(3)
+{   border: 1px solid #9E9E9E;
+    width: 27%;
+    padding: 2%;
+    text-align: center;
+    background-color: deeppink;
+    color: white;
+}
+#code > div:nth-child(2) > div:nth-child(7)
+{   color: #9E9E9E;
+    font-size: 14px;
+    margin-top: 3%;
+}
+
+#bookedData{
+    display: none;
+    width: 40%;
+    height: 55%;
+    position: absolute;
+    background-color: white;
+    z-index: 20;
+    top:20%;
+    left: 30%;
+    border-radius: 2%;
+    box-shadow: 2px 2px black;
+}
+#tick{
+    color: green;
+    margin-left: 40%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+#bookedData h1{
+    margin-left: 30%;
+}
+.com{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    font-size: 22px;
+    margin: 2% 0% 2% 15%;
+}

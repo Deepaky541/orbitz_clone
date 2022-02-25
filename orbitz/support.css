@@ -1,0 +1,298 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.search {
+    background-image: url("https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+
+
+    display: flex;
+    padding-left: 7%;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+
+.search h2 {
+    color: white;
+    padding-right: 60px;
+    margin-bottom: 26px;
+    font-weight: bold;
+}
+
+.search input {
+    border: none;
+    border-radius: 4px;
+    width: 35%;
+    height: 50px;
+    font-size: 17px;
+    padding: 12px 20px 12px 20px;
+    background-image: url('https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png');
+    background-size: 20px;
+    background-position: 380px 15px;
+    background-repeat: no-repeat;
+}
+
+.sign {
+
+    background-color: rgb(228, 243, 255);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.sign h2 {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.cancel {
+    display: flex;
+    margin: 0 -10px;
+
+}
+
+.cancel1 {
+    display: flex;
+    background-color: white;
+    margin: 0 10px;
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+}
+
+.cancel1 img {
+    width: 50px;
+    height: 40px;
+    padding-top: 4px;
+    padding-left: 15px;
+}
+
+.cancel1 p {
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 13px;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 30px;
+
+}
+
+.flights {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+
+}
+.flights p{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: larger;
+    font-weight: 400;
+}
+.btn{
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 140px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    text-align:left;
+
+    
+    font-size: medium;
+    font-weight:300;
+    cursor: pointer;
+    display: flex;
+    margin:0 -10px;
+    
+    
+    
+    
+    
+    
+}
+.gg-airplane{
+
+ margin: 0 10px;
+ 
+}
+.gg-home{
+margin: 0 10px;
+
+}
+.gg-shopping-bag{
+ margin: 0 10px;
+}
+.fa-car{
+    margin: 0 10px;
+}
+.fa-ship{
+    margin: 0 10px;
+}
+.gg-brackets{
+
+    margin: 0 10px;
+}
+.fa-male{
+    margin: 0 10px;
+}
+.fa-bars{
+    margin: 0 10px;
+}
+.gg-comment{
+    margin: 0 10px;
+}
+.gg-danger{
+    margin: 0 10px;
+}
+.btn:hover {
+  background-color: rgb(229, 248, 253);
+
+}
+.topics
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+.topics p{
+padding-top: 62px;
+padding-bottom: 22px;
+
+}
+.btn2
+{
+    display:flex;
+    background-color: white;
+    border: none;
+    padding-right: 400px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    text-align: left;
+    font-size: medium;
+    font-weight:300;
+    cursor: pointer;
+    white-space: nowrap;
+    color: blue;
+    
+}
+.btn2:hover {
+  background-color: rgb(229, 248, 253);
+
+}
+.fa-angle-right{
+padding-left: 20px;
+padding-right: 20px;
+}
+.box{
+
+display: flex;
+border: 3px solid blue;
+border-radius: 10px;
+margin-left: 80px;
+margin-right: 80px;
+margin-top: 20px
+
+}
+.box1{
+display: flex;
+
+padding: 10px 10px;
+flex-direction: column;
+
+}
+.orb{
+display: flex;
+padding-top: 12px;
+}
+.orb img{
+width: 70px;
+height: 70px;
+}
+.orb h2{
+font-weight: 600;
+}
+.snd{
+display: flex;
+padding-left: 80px;
+margin: 0 -6px;
+
+} 
+.snd input{
+padding: 6px 90px;
+
+}
+.snd button{
+padding: 6px 12px;
+margin:0 6px;
+background-color: rgb(201, 89, 108);
+color: white;
+border: none;
+border-radius: 3px;
+}
+.three{
+display: flex;
+padding-top: 20px;
+margin: 0 -10px;
+}
+.three p{
+display: flex;
+margin: 0 10px;
+padding-left: 10px;
+}
+
+.box2{
+padding-top: 20px;
+padding-left: 60px;
+}
+.box2 p{
+padding-left: 7px;
+font-weight: 600;
+font-size: small;
+}
+.box2 img{
+width: 150px;
+height: 150px;
+padding-left: 20px;
+padding-top: 10px;
+}
+.para{
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 20px;
+font-size:xx-small;
+color: grey;
+}
+.para1{
+font-size: smaller;
+color: grey;
+padding-left: 70px;
+padding-top: 40px;
+}
+.img1{
+padding-left: 500px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.part3{
+border: none;
+color:blue;
+background-color: white;
+margin-left: 530px;
+border: 1px solid blue;
+padding: 8px 10px;
+margin-top: 80px;
+border-radius: 3px;
+
+
+}
